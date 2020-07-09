@@ -1,4 +1,6 @@
 # Directions:
+# Clone repo from https://github.com/tapizquent/python_course.git
+
 # - Add the missing part so the programs compiles and runs
 # - When the program runs, before anything else, prompt the user with the following
 #   message: 'What is your name? '
