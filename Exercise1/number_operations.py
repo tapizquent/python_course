@@ -16,26 +16,27 @@
 #      EXP: 1
 
 # Ask user for their first and last name here
+print('what is your name? ')
 
-first_name = input('Input your first name: ')
-last_name = ....
+first_name = input('Input your first name: ' )
+last_name = input('Imput you last name: ')
 
 print()
-print('Hello, ' + ......... + 'Welcome to addition!')
+print('Hello, ' + first_name + ' '+ last_name + ' Welcome to addition!')
 print()
 
 # Ask user to input first number
-a = int(input(........))
+a = int(input('Input first number: '))
 # Ask user to input second number
-b = int(input(........))
+b = int(input('Input second number: '))
 
-sum = .......
-subt = .....
-mult = .....
-exp = .....
+sum = a + b
+subt = a - b
+mult = a * b
+exp = a ** b
 
 print()
-print('SUM: ' + .....)
-print('SUB: ' + .....)
-print('MULT: ' + .....)
-print('EXP: ' + .....)
+print('SUM: ' + str(sum))
+print('SUB: ' + str(subt))
+print('MULT: ' + str(mult))
+print('EXP: ' + str(exp))
