@@ -18,24 +18,24 @@
 # Ask user for their first and last name here
 
 first_name = input('Input your first name: ')
-last_name = ....
+last_name = input('Input you last name: ')
 
 print()
-print('Hello, ' + ......... + 'Welcome to addition!')
+print(f'Hello, {first_name} {last_name} Welcome to addition!')
 print()
 
 # Ask user to input first number
-a = int(input(........))
+a = int(input("Enter your frist number: "))
 # Ask user to input second number
-b = int(input(........))
+b = int(input("Enter you second number: "))
 
-sum = .......
-subt = .....
-mult = .....
-exp = .....
+sum = a+b
+subt = a-b
+mult = a*b
+exp = a**b
 
 print()
-print('SUM: ' + .....)
-print('SUB: ' + .....)
-print('MULT: ' + .....)
-print('EXP: ' + .....)
+print(f'SUM: {sum}')
+print(f'SUB: {subt}')
+print(f'MULT: {mult}')
+print(f'EXP: {exp}')
