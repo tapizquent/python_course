@@ -69,26 +69,26 @@ operation = int(input('operation: '))
 a = float(input ('Number a: '))
 b = float(input('Number b: '))
 if operation == 5: 
-    print (a+b) 
-    print (a-b)
-    print (a*b)
-    print (a**b)
+    print (round ((a+b), 2))
+    print (round ((a-b), 2))
+    print (round ((a*b), 2))
+    print (round ((a**b), 2))
     if b!=0:
-        print (float(a//b))
+        print (round(float(a/b), 2))
     else:
         print('Error ')
 
 elif operation == 0:
-    print (a+b)
+    print (round ((a+b), 2))
 elif operation == 1:
-    print (a-b)
+    print (round ((a-b), 2))
 elif operation == 2:
-    print (a*b)
+    print (round ((a*b), 2))
 elif operation == 4:
-    print (a**b)
+    print (round ((a**b), 2))
 elif operation == 3:
     if b!=0:
-        print(float(a//b))
+        print(round(float(a/b), 2))
     else:
         print('Error')
 else:
